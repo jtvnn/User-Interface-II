@@ -127,12 +127,6 @@ nav a{
     justify-content: space-between;
 }
 
-.gallery2{
-    margin: 2% 6%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
 .gallery1 div{
     width: 21%;
 }
@@ -142,6 +136,14 @@ nav a{
 .gallery1 div p{
     text-align:center;
 }
+
+.gallery2{
+    margin: 2% 6%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
 .gallery2 div{
     width: 21%;
 }
@@ -157,6 +159,7 @@ nav a{
     display: flex;
     justify-content: center;
     background-color: #A0B09C;
+    
 }
 .contactButton a{
     border: 2px solid black;
