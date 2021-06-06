@@ -53,7 +53,7 @@ table {
     padding:0;
     margin:0;
     max-width:100%; /*you can never be bigger than you parent*/
-    border:1px solid grey;
+    /* border:1px solid grey; */
 }
 
 /*General Styles*/
@@ -134,7 +134,7 @@ nav a{
 }
 .gallery1 div p, .gallery2 div p{
     text-align:center;
-    font-size: 75%;
+    font-size: 100%;
 }
 /*Footer*/
 .contactButton{
@@ -155,6 +155,10 @@ nav a{
 @media(max-width:800px){
     .topImg{
         height: 75vh;
+    }
+    .gallery1 div p, .gallery2 div p{
+        text-align:center;
+        font-size: 85%;
     }
 }
 
@@ -180,5 +184,9 @@ nav a{
     }
     .gallery1 div, .gallery2 div{
         width: 50%;
+    }
+    .gallery1 div p, .gallery2 div p{
+        text-align:center;
+        font-size: 75%;
     }
 }
