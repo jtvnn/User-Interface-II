@@ -91,6 +91,7 @@ nav{
 }
 nav a{
     padding: 1%;
+    font-size: 175%;
 }
 
 /*Top*/
@@ -153,6 +154,10 @@ nav a{
 
 /*Media Queries*/
 @media(max-width:800px){
+    nav a{
+        padding: 1%;
+        font-size: 150%;
+    }
     .topImg{
         height: 75vh;
     }
