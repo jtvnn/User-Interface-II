@@ -169,4 +169,37 @@ nav a{
 }
 
 /*Media Queries*/
+@media(max-width:800px){
+ 
+}
 
+@media(max-width:500px){
+    nav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .topImg{
+        height: 50vh;
+    }
+    .iconName{
+        text-align: center;
+    }
+    .galleries{
+        display: flex;
+    }
+    .gallery1{
+        display: flex;
+        flex-direction: column;
+    }
+    .gallery1 div{
+        width: 50%;
+    }
+    .gallery2{
+        display: flex;
+        flex-direction: column;
+    }
+    .gallery2 div{
+        width: 50%;
+    }
+}
