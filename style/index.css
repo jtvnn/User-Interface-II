@@ -120,38 +120,21 @@ nav a{
     font-size: 200%;
 }
 /*Galleries*/
-.gallery1{
+.gallery1, .gallery2{
     margin: 2% 6%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
-
-.gallery1 div{
+.gallery1 div, .gallery2 div{
     width: 21%;
 }
-.gallery1 div img{
+.gallery1 div img, .gallery2 div img{
     width: 100%;
 }
-.gallery1 div p{
+.gallery1 div p, .gallery2 div p{
     text-align:center;
-}
-
-.gallery2{
-    margin: 2% 6%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.gallery2 div{
-    width: 21%;
-}
-.gallery2 div img{
-    width: 100%;
-}
-.gallery2 div p{
-    text-align:center;
+    font-size: 75%;
 }
 /*Footer*/
 .contactButton{
@@ -170,7 +153,9 @@ nav a{
 
 /*Media Queries*/
 @media(max-width:800px){
- 
+    .topImg{
+        height: 75vh;
+    }
 }
 
 @media(max-width:500px){
@@ -193,10 +178,7 @@ nav a{
         flex-direction: column;
         align-items: center;
     }
-    .gallery1 div{
-        width: 50%;
-    }
-    .gallery2 div{
+    .gallery1 div, .gallery2 div{
         width: 50%;
     }
 }
